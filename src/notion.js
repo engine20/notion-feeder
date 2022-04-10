@@ -28,6 +28,7 @@ export async function getExistingPages(items) {
   });
 
   return response.results;
+}
 
 export async function getFeedUrlsFromNotion() {
   const notion = new Client({
